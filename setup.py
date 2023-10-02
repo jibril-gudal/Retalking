@@ -12,6 +12,8 @@ setup(
         'einops==0.4.1',
         'facexlib==0.2.5',
         'librosa==0.9.2',
+        "build-essential",
+        "cmake",
         'dlib==19.24.0',
         'gradio>=3.7.0',
         'numpy==1.21.6',
