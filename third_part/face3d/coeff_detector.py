@@ -8,11 +8,11 @@ from tqdm import tqdm
 import torch
 import torch.nn as nn
 
-from face3d.options.inference_options import InferenceOptions
-from face3d.models import create_model
-from face3d.util.preprocess import align_img
-from face3d.util.load_mats import load_lm3d
-from face3d.extract_kp_videos import KeypointExtractor
+from third_part.face3d.options.inference_options import InferenceOptions
+from third_part.face3d.models import create_model
+from third_part.face3d.util.preprocess import align_img
+from third_part.face3d.util.load_mats import load_lm3d
+from third_part.face3d.extract_kp_videos import KeypointExtractor
 
 
 class CoeffDetector(nn.Module):

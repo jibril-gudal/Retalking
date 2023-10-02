@@ -4,9 +4,9 @@
 import os 
 import numpy as np
 import argparse
-from util.detect_lm68 import detect_68p,load_lm_graph
-from util.skin_mask import get_skin_mask
-from util.generate_list import check_list, write_list
+from third_part.face3d.util.detect_lm68 import detect_68p,load_lm_graph
+from third_part.face3d.util.skin_mask import get_skin_mask
+from third_part.face3d.util.generate_list import check_list, write_list
 import warnings
 warnings.filterwarnings("ignore") 
 

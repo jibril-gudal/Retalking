@@ -29,6 +29,9 @@ warnings.filterwarnings("ignore")
 args = options()
 
 def main():    
+    # TODO: Modify the file paths to load your 2-minute video and corresponding audio
+    # video_path = 'path/to/your/video.mp4'
+    # audio_path 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print('[Info] Using {} for inference.'.format(device))
     os.makedirs(os.path.join('temp', args.tmp_dir), exist_ok=True)
